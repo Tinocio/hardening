@@ -1,5 +1,5 @@
 ---
-- hosts: 54.174.245.136
+- hosts: ubuntu
   become: true
   tasks:
     - name: install apache2
